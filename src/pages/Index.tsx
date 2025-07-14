@@ -28,7 +28,7 @@ interface Transaction {
 }
 
 const Index = () => {
-  const [balance, setBalance] = useState(100);
+  const [balance, setBalance] = useState(1000);
   const [selectedCrypto, setSelectedCrypto] = useState('BTC');
   const [orderType, setOrderType] = useState('buy');
   const [amount, setAmount] = useState('');
